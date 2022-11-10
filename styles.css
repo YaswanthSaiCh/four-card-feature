@@ -78,6 +78,14 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  .container {
+    margin: auto;
+  }
   .thin-heading,
   .bold-heading {
     font-size: 25px;
@@ -86,7 +94,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: inherit;
+    padding-top: 0;
+    width: 100%;
   }
   .card2,
   .card4 {
